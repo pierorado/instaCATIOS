@@ -6,6 +6,8 @@ target 'instacat' do
   use_frameworks!
   pod 'Firebase/Core'
   pod 'Firebase/Auth'
+  pod 'Firebase/Database'
+  pod 'SDWebImage/WebP'
 	# add pods for desired Firebase products
 	# https://firebase.google.com/docs/ios/setup#available-pods
   # Pods for instacat

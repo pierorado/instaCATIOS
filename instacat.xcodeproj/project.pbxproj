@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		646B6117493A246FE600407C /* Pods_instacat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A7F969A41603001F5F70789 /* Pods_instacat.framework */; };
+		762718F02386F22C0044BFEF /* ImageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 762718EF2386F22C0044BFEF /* ImageCollectionViewCell.swift */; };
+		762718F22386F88B0044BFEF /* CustomImageFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 762718F12386F88B0044BFEF /* CustomImageFlowLayout.swift */; };
+		762718F4238701990044BFEF /* CatInsta.swift in Sources */ = {isa = PBXBuildFile; fileRef = 762718F3238701990044BFEF /* CatInsta.swift */; };
 		7698B376238462D50000DF08 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7698B375238462D50000DF08 /* AppDelegate.swift */; };
 		7698B378238462D50000DF08 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7698B377238462D50000DF08 /* ViewController.swift */; };
 		7698B37B238462D50000DF08 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7698B379238462D50000DF08 /* Main.storyboard */; };
@@ -16,12 +19,14 @@
 		7698B383238462D70000DF08 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7698B381238462D70000DF08 /* LaunchScreen.storyboard */; };
 		7698B38B2384644E0000DF08 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7698B38A2384644E0000DF08 /* GoogleService-Info.plist */; };
 		7698B38D238472F70000DF08 /* LoginViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7698B38C238472F70000DF08 /* LoginViewViewController.swift */; };
-		7698B38F23848AEA0000DF08 /* ImageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7698B38E23848AEA0000DF08 /* ImageCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		503B6E9CBCBD2D07B5C9C789 /* Pods-instacat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-instacat.release.xcconfig"; path = "Target Support Files/Pods-instacat/Pods-instacat.release.xcconfig"; sourceTree = "<group>"; };
 		6A7F969A41603001F5F70789 /* Pods_instacat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_instacat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		762718EF2386F22C0044BFEF /* ImageCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCollectionViewCell.swift; sourceTree = "<group>"; };
+		762718F12386F88B0044BFEF /* CustomImageFlowLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomImageFlowLayout.swift; sourceTree = "<group>"; };
+		762718F3238701990044BFEF /* CatInsta.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatInsta.swift; sourceTree = "<group>"; };
 		7698B372238462D50000DF08 /* instacat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = instacat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7698B375238462D50000DF08 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7698B377238462D50000DF08 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -32,7 +37,6 @@
 		7698B384238462D70000DF08 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7698B38A2384644E0000DF08 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		7698B38C238472F70000DF08 /* LoginViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewViewController.swift; sourceTree = "<group>"; };
-		7698B38E23848AEA0000DF08 /* ImageCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCollectionViewCell.swift; sourceTree = "<group>"; };
 		8B78E3F7EE63F2AB994D3045 /* Pods-instacat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-instacat.debug.xcconfig"; path = "Target Support Files/Pods-instacat/Pods-instacat.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -78,7 +82,9 @@
 				7698B384238462D70000DF08 /* Info.plist */,
 				7698B37C238462D50000DF08 /* instacat.xcdatamodeld */,
 				7698B38C238472F70000DF08 /* LoginViewViewController.swift */,
-				7698B38E23848AEA0000DF08 /* ImageCollectionViewCell.swift */,
+				762718EF2386F22C0044BFEF /* ImageCollectionViewCell.swift */,
+				762718F12386F88B0044BFEF /* CustomImageFlowLayout.swift */,
+				762718F3238701990044BFEF /* CatInsta.swift */,
 			);
 			path = instacat;
 			sourceTree = "<group>";
@@ -216,8 +222,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				762718F22386F88B0044BFEF /* CustomImageFlowLayout.swift in Sources */,
+				762718F4238701990044BFEF /* CatInsta.swift in Sources */,
 				7698B37E238462D50000DF08 /* instacat.xcdatamodeld in Sources */,
-				7698B38F23848AEA0000DF08 /* ImageCollectionViewCell.swift in Sources */,
+				762718F02386F22C0044BFEF /* ImageCollectionViewCell.swift in Sources */,
 				7698B378238462D50000DF08 /* ViewController.swift in Sources */,
 				7698B376238462D50000DF08 /* AppDelegate.swift in Sources */,
 				7698B38D238472F70000DF08 /* LoginViewViewController.swift in Sources */,
